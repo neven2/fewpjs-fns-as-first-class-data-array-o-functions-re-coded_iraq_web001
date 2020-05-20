@@ -22,7 +22,7 @@ const result=[];
 function exerciseDog(dogName,dogBreed){
   
   for( let i=0;i<routine.length;i++){
- 
+ result+=routine[i](dogName,dogBreed);
 }
 return result;
   
