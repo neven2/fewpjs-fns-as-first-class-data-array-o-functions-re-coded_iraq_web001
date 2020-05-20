@@ -18,8 +18,9 @@ function unleashDog(dogName, dogBreed){
 return `Unleash ${dogName} the ${dogBreed}`;
 }
 const routine=[wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog];
+const result=[];
 function exerciseDog(dogName,dogBreed){
-  const result=[];
+  
   for( let i=0;i<routine.length;i++){
  
 }
