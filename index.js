@@ -28,5 +28,5 @@ function exerciseDog(dogName,dogBreed){
 return result;
   
 }
-
+ exerciseDog("Bryon","poodle")
 
